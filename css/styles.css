@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #E6EFF6;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.50rem;
+    font-weight: 400;
+}
+
+.cta {
+    display: flex;
+    height: 95vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    max-width: 635px;
+    flex-wrap: wrap;
+    align-content: center;
+    box-shadow: 0px 9px 64px -5px rgba(218, 227, 236, 1);
+}
+
+.top-section {
+    flex-basis: 100%;
+    background-color: #FFFFFF;
+    padding: 45px 35px 45px 35px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.top-section h1 {
+    margin-bottom: 30px;
+}
+
+.top-section h2 {
+    margin-bottom: 15px;
+    color: #C5DC56;
+}
+
+.top-section p {
+    color: #AAAEB7;
+}
+
+.side {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 40px 35px 40px 35px;
+    color: #FFFFFF;
+    /* max-height: 260px; */
+}
+
+.side h2 {
+    margin-bottom: 20px;
+}
+
+.left-section {
+    border-radius: 0px 0px 0px 10px;
+    background-color: #2BB3B1;
+}
+
+#price-number {
+    font-size: 2.13rem;
+    color: #FFFFFF;
+}
+
+.price {
+    margin-bottom: 15px;
+    color: #7CE3E7;
+}
+
+.offer {
+    margin-bottom: 30px;
+}
+
+.right-section {
+    border-radius: 0px 0px 10px 0px;
+    background-color: #4ABEBD;
+}
+
+.right-section p {
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    border: 0px transparent;
+    border-radius: 5px;
+    padding: 18px 0px;
+    background-color: #BEE034;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 50px 20px 50px 20px;
+    }
+
+    .cta {
+        height: 100%;
+    }
+
+    .side {
+        flex-basis: 100%;
+    }
+
+    .left-section {
+        border-radius: 0px;
+    }
+
+    .right-section {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+}
